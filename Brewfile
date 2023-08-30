@@ -135,9 +135,11 @@ brew "kaos/shell/bats-file"
 brew "robotsandpencils/made/xcodes"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 cask "au-lab"
+cask "eagle"
 cask "ghidra"
 cask "gimp"
 cask "locationsimulator"
+cask "ltspice"
 cask "td-agent"
 cask "vimr"
 mas "Adblock Plus", id: 1432731683
