@@ -147,7 +147,7 @@ mas "AdBlock Pro", id: 1018301773
 mas "Apple Configurator", id: 1037126344
 mas "EasyRes", id: 688211836
 mas "Session Pal", id: 1515213004
-mas "Amphetamine", id 937984704
+mas "Amphetamine", id: 937984704
 mas "CotEditor", id: 1024640650
 mas "Final Cut Pro", id: 424389933
 mas "Hex Fiend", id: 1342896380
