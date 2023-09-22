@@ -1,4 +1,5 @@
 tap "carlocab/personal"
+tap "gcenx/wine"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -111,6 +112,7 @@ brew "rename"
 brew "rpm2cpio"
 brew "rsync"
 brew "ruby"
+brew "rustup-init"
 brew "shellcheck"
 brew "task"
 brew "telnet"
@@ -141,6 +143,7 @@ cask "ghidra"
 cask "gimp"
 cask "google-chrome"
 cask "grandperspective"
+cask "gstreamer"
 cask "iterm2"
 cask "locationsimulator"
 cask "ltspice"
@@ -148,15 +151,19 @@ cask "makemkv"
 cask "pd"
 cask "processing"
 cask "td-agent"
+cask "utm"
 cask "viber"
 cask "vimr"
 cask "vlc"
+cask "wine-stable"
+cask "wineskin"
 cask "xld"
 mas "Adblock Plus", id: 1432731683
 mas "AdBlock Pro", id: 1018301773
 mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "CotEditor", id: 1024640650
+mas "CrystalFetch", id: 6454431289
 mas "Display Menu", id: 549083868
 mas "EasyRes", id: 688211836
 mas "Final Cut Pro", id: 424389933
