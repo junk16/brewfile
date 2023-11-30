@@ -90,7 +90,6 @@ brew "llvm"
 brew "lzip"
 brew "mas"
 brew "maven"
-brew "mcrypt"
 brew "memcached"
 brew "minipro"
 brew "qt"
@@ -136,7 +135,6 @@ brew "yt-dlp"
 brew "carlocab/personal/unrar"
 brew "kaos/shell/bats-assert"
 brew "kaos/shell/bats-file"
-brew "modularml/packages/modular"
 brew "robotsandpencils/made/xcodes"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 cask "appcleaner"
@@ -149,9 +147,8 @@ cask "eagle"
 cask "firefox"
 cask "ghidra"
 cask "gimp"
-cask "google-chrome"
 cask "grandperspective"
-cask "gstreamer-framework"
+cask "gstreamer-runtime"
 cask "iterm2"
 cask "kicad"
 cask "locationsimulator"
@@ -182,7 +179,7 @@ mas "Hotspot Shield", id: 771076721
 mas "iMazing Converter", id: 1292198261
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
+mas "Kindle Classic", id: 405399194
 mas "LadioCast", id: 411213048
 mas "LINE", id: 539883307
 mas "Memory Clean 2", id: 1114591412
@@ -194,4 +191,5 @@ mas "Save to Pocket", id: 1477385213
 mas "Session Pal", id: 1515213004
 mas "Smart JSON Editor", id: 1268962404
 mas "VisualJSON", id: 488709442
+mas "Vimari", id: 1480933944
 mas "Xcode", id: 497799835
