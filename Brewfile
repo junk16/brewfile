@@ -147,6 +147,7 @@ cask "eagle"
 cask "firefox"
 cask "ghidra"
 cask "gimp"
+cask "google-chrome"
 cask "grandperspective"
 cask "gstreamer-runtime"
 cask "iterm2"
@@ -190,6 +191,6 @@ mas "Pages", id: 409201541
 mas "Save to Pocket", id: 1477385213
 mas "Session Pal", id: 1515213004
 mas "Smart JSON Editor", id: 1268962404
-mas "VisualJSON", id: 488709442
 mas "Vimari", id: 1480933944
+mas "VisualJSON", id: 488709442
 mas "Xcode", id: 497799835
