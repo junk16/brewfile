@@ -165,6 +165,7 @@ cask "wineskin"
 cask "xld"
 mas "Adblock Plus", id: 1432731683
 mas "AdBlock Pro", id: 1018301773
+mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "CotEditor", id: 1024640650
@@ -189,6 +190,7 @@ mas "Pages", id: 409201541
 mas "Save to Pocket", id: 1477385213
 mas "Session Pal", id: 1515213004
 mas "Smart JSON Editor", id: 1268962404
+mas "Userscripts-Mac-App", id: 1463298887
 mas "Vimari", id: 1480933944
 mas "VisualJSON", id: 488709442
 mas "Xcode", id: 497799835
