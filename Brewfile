@@ -116,6 +116,7 @@ brew "neovim"
 brew "nghttp2"
 brew "nginx"
 brew "nkf"
+brew "openmsx"
 brew "pdftk-java"
 brew "peco"
 brew "perl"
@@ -150,7 +151,6 @@ brew "yarn"
 brew "youtube-dl"
 brew "yt-dlp"
 brew "zlib"
-brew "carlocab/personal/unrar"
 brew "kaos/shell/bats-assert"
 brew "kaos/shell/bats-file"
 brew "mongodb/brew/mongodb-community"
@@ -166,7 +166,6 @@ cask "blackhole-64ch"
 cask "burn"
 cask "calibre"
 cask "eagle"
-cask "electron"
 cask "firefox"
 cask "ghidra"
 cask "gimp"
@@ -182,8 +181,10 @@ cask "ltspice"
 cask "mactex"
 cask "makemkv"
 cask "ocenaudio"
+cask "openemu"
 cask "pd"
 cask "processing"
+cask "rar"
 cask "td-agent"
 cask "utm"
 cask "viber"
@@ -192,3 +193,38 @@ cask "vlc"
 cask "wine-stable"
 cask "wineskin"
 cask "xld"
+cask "yacreader"
+mas "Adblock Plus", id: 1432731683
+mas "AdBlock Pro", id: 1018301773
+mas "AdGuard for Safari", id: 1440147259
+mas "Amphetamine", id: 937984704
+mas "Apple Configurator", id: 1037126344
+mas "Audio Capture Pro", id: 1667175220
+mas "CotEditor", id: 1024640650
+mas "CrystalFetch", id: 6454431289
+mas "Dipper", id: 6450242673
+mas "Display Menu", id: 549083868
+mas "EasyRes", id: 688211836
+mas "Final Cut Pro", id: 424389933
+mas "GarageBand", id: 682658836
+mas "Hex Fiend", id: 1342896380
+mas "Hotspot Shield", id: 771076721
+mas "iMazing Converter", id: 1292198261
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle Classic", id: 405399194
+mas "LadioCast", id: 411213048
+mas "LINE", id: 539883307
+mas "Memory Clean 2", id: 1114591412
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Okta Extension App", id: 1439967473
+mas "Pages", id: 409201541
+mas "Save to Pocket", id: 1477385213
+mas "Session Pal", id: 1515213004
+mas "Smart JSON Editor", id: 1268962404
+mas "The Unarchiver", id: 425424353
+mas "Userscripts-Mac-App", id: 1463298887
+mas "Vimari", id: 1480933944
+mas "VisualJSON", id: 488709442
+mas "Xcode", id: 497799835
