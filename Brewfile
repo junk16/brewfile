@@ -90,7 +90,7 @@ brew "libheif"
 brew "imagemagick"
 brew "influxdb"
 brew "jack"
-brew "openjdk@17"
+brew "openjdk"
 brew "jmeter"
 brew "jq"
 brew "kubernetes-cli"
@@ -108,7 +108,6 @@ brew "lima"
 brew "llvm"
 brew "lzip"
 brew "mas"
-brew "openjdk"
 brew "maven"
 brew "memcached"
 brew "minipro"
@@ -120,6 +119,7 @@ brew "neovim"
 brew "nghttp2"
 brew "nginx"
 brew "nkf"
+brew "openjdk@17"
 brew "openmsx"
 brew "pdftk-java"
 brew "peco"
@@ -232,5 +232,4 @@ mas "Smart JSON Editor", id: 1268962404
 mas "The Unarchiver", id: 425424353
 mas "Userscripts-Mac-App", id: 1463298887
 mas "Vimari", id: 1480933944
-mas "VisualJSON", id: 488709442
 mas "Xcode", id: 497799835
