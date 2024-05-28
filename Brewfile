@@ -1,7 +1,6 @@
 tap "carlocab/personal"
 tap "gcenx/wine"
 tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "jimihford/hendrix"
 tap "junk16/custom"
