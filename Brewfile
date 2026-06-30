@@ -10,12 +10,12 @@ tap "homebrew/services"
 tap "jimihford/hendrix"
 tap "junk16/custom"
 tap "kaos/shell"
-tap "kegworks-app/kegworks"
 tap "laishulu/homebrew"
-tap "modularml/packages"
+tap "modular/packages", "https://github.com/modular/homebrew-packages.git"
 tap "mongodb/brew"
 tap "netmute/tap"
 tap "shivammathur/php"
+tap "sikarugir-app/sikarugir", "https://github.com/Sikarugir-App/homebrew-sikarugir.git"
 tap "spring-io/tap"
 tap "universal-ctags/universal-ctags"
 # Library for manipulating PNG images
@@ -46,8 +46,6 @@ brew "aider"
 brew "tree"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
-# All in one for **env
-brew "anyenv"
 # Top-like display of Apache log
 brew "apachetop"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -116,8 +114,14 @@ brew "ctags-lsp"
 brew "direnv"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Docker CLI plugin for extended build capabilities with BuildKit
+brew "docker-buildx"
 # Isolated development environments using Docker
 brew "docker-compose"
+# Platform keystore credential helper for Docker
+brew "docker-credential-helper"
+# Docker Credential Helper for Amazon ECR
+brew "docker-credential-helper-ecr"
 # Tools for browsing and manipulating docker registries
 brew "docker-ls"
 # Text processing system for reStructuredText
@@ -174,6 +178,8 @@ brew "gemini-cli"
 brew "get_iplayer"
 # GitHub command-line tool
 brew "gh"
+# Development kit for the Java programming language
+brew "openjdk@21"
 # Multi-platform software reverse engineering framework
 brew "ghidra"
 # Interpreter for PostScript and PDF
@@ -190,6 +196,10 @@ brew "git-delta"
 brew "git-flow"
 # Git extension for versioning large files
 brew "git-lfs"
+# Prevents you from committing sensitive information to a git repo
+brew "git-secrets"
+# Java EE application server
+brew "glassfish"
 # Source code tag system
 brew "global"
 # GNU implementation of the famous stream editor
@@ -240,6 +250,8 @@ brew "imagemagick"
 brew "influxdb"
 # Audio Connection Kit
 brew "jack"
+# Manage your Java environment
+brew "jenv"
 # Git-compatible distributed version control system
 brew "jj"
 # Load testing and performance measurement application
@@ -344,6 +356,8 @@ brew "prometheus"
 brew "protobuf"
 # Show ps output as a tree
 brew "pstree"
+# Python version management
+brew "pyenv"
 # Cross-platform application and UI framework
 brew "qt@5"
 # Python bindings for v5 of Qt
@@ -356,6 +370,8 @@ brew "qemu"
 brew "qpdf"
 # Software environment for statistical computing
 brew "r"
+# Ruby version manager
+brew "rbenv"
 # Generate C-based recognizers from regular expressions
 brew "re2c"
 # Persistent key-value database, with built-in net interface
@@ -402,7 +418,7 @@ brew "watch"
 brew "wget"
 # Cross-platform C++ GUI toolkit
 brew "wxwidgets"
-# Best command-line tool to install and switch between multiple versions of Xcode
+# Command-line tool to install and switch between multiple versions of Xcode
 brew "xcodes"
 # Linter for YAML files
 brew "yamllint"
@@ -455,9 +471,11 @@ cask "claude"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Node-based image, video and audio generator
-cask "comfyui"
+cask "comfy"
 # Server and cloud storage browser
 cask "cyberduck"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # Utilities designed to make common development tasks easier
 cask "devtoys"
 # Fork of the DOSBox project
@@ -539,10 +557,16 @@ cask "pd"
 cask "processing"
 # Archive manager for data compression and backups
 cask "rar"
+# Team communication and collaboration software
+cask "slack"
 # Server, language, and IDE for sound synthesis and algorithmic composition
 cask "supercollider"
 # Fluentd distribution package
 cask "td-agent"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin@17"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin@8"
 # Virtual machines UI using QEMU
 cask "utm"
 # Calling and messaging application focusing on security
@@ -599,6 +623,7 @@ mas "QuickFTP", id: 1451646819
 mas "Save to Pocket", id: 1477385213
 mas "Save to Raindrop.io", id: 1549370672
 mas "Session Pal", id: 1515213004
+mas "Slack", id: 803453959
 mas "Smart JSON Editor", id: 1268962404
 mas "Tabstract", id: 6743376666
 mas "The Unarchiver", id: 425424353
