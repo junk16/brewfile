@@ -312,6 +312,8 @@ brew "maven"
 brew "memcached"
 # Open controller for the MiniPRO TL866xx series of chip programmers
 brew "minipro"
+# Mac command-line tool that automatically downloads macOS Firmwares / Installers
+brew "mist-cli"
 # Cross-platform application and UI framework
 brew "qt"
 # Matroska media files manipulation tools
@@ -468,6 +470,8 @@ cask "chatgpt"
 cask "chromedriver"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Node-based image, video and audio generator
@@ -525,7 +529,6 @@ cask "iterm2"
 cask "k6-studio"
 # Keyboard customiser
 cask "karabiner-elements"
-# Porting tool, to make Windows programs/games into native apps
 cask "kegworks"
 # Electronics design automation suite
 cask "kicad"
